@@ -4,15 +4,15 @@ body {
     padding: 0;
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Noto Sans KR', sans-serif;
-    color: #010100;
+    color: #040404;
     text-align: center;
     height: 100vh;
 }
 
 /* section 1 (including header) */
 header {
-    color: #a0c4cc;
-    background-color: #010100;
+    color: #4597c2;
+    background-color: #040404;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -23,10 +23,12 @@ header {
     padding: 48px 360px 0px 360px;
     display: flex;
     justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
 }
 
 .header a {
-    color: #a0c4cc;
+    color: #4597c2;
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
@@ -45,6 +47,7 @@ header h1 {
     align-items: center;
     justify-content: center;
     gap: 64px;
+    flex-wrap: wrap;
 }
 
 .spotify {
@@ -61,7 +64,7 @@ header h1 {
 .content-2 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 /* section 2 subsections */
@@ -73,7 +76,9 @@ header h1 {
 .members {
     padding: 0px 240px 96px 240px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 48px;
+    flex-wrap: wrap;
 }
 
 .card-container {
@@ -88,7 +93,7 @@ header h1 {
 
 .card-container img {
     border: 5px;
-    border-color: #a0c4cc;
+    border-color: #ab3783;
     border-style: solid;
     width: 300px;
     height: auto;
@@ -96,14 +101,14 @@ header h1 {
 
 .card-container a,
 .card-container a:visited {
-    color: #010100;
+    color: #040404;
     font-size: 36px;
     margin-top: 24px;
 }
 
 /* section 3 */
 .content-3 {
-    background-color: #a0c4cc;
+    background-color: #c1b1ac;
     display: flex;
     justify-content: center;
 }
@@ -137,7 +142,7 @@ header h1 {
 
 /* section 4 subsections */
 .sign-up-container {
-    background-color: #a0c4cc;
+    background-color: #c1b1ac;
     border-radius: 12px;
     padding: 48px;
     display: flex;
@@ -158,6 +163,9 @@ header h1 {
 }
 
 .sign-up-container button {
+    color: white;
+    background-color: #ab3783;
+    border-color: #040404;
     font-size: 24px;
     border-radius: 12px;
     width: 180px;
@@ -166,7 +174,7 @@ header h1 {
 
 /* footer section */
 footer {
-    background-color: #010100;
+    background-color: #040404;
     padding: 12px;
     display: flex;
     align-items: center;
@@ -175,7 +183,7 @@ footer {
 }
 
 footer h2 {
-    color: #a0c4cc;
+    color: #4597c2;
     font-size: 24px;
     font-weight: bold;
 }
