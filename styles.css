@@ -1,13 +1,18 @@
+/* page setup */
 body {
     margin: 0;
     padding: 0;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #010100;
     text-align: center;
     height: 100vh;
 }
 
 /* section 1 (including header) */
 header {
+    color: #a0c4cc;
+    background-color: #010100;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -15,15 +20,41 @@ header {
 
 /* section 1 subsections */
 .header {
+    padding: 48px 360px 0px 360px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
+.header a {
+    color: #a0c4cc;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: -6px 0px 0px 0px;
+}
+
+header h1 {
+    color: white;
+    font-size: 42px;
+    margin-top: 96px;
+}
+
 .embed {
+    padding: 24px 0px 96px 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 64px;
+}
+
+.spotify {
+    width: 500px;
+    height: 375px;
+}
+
+.youtube {
+    width: 595px;
+    height: 375px;
 }
 
 /* section 2 */
@@ -34,7 +65,13 @@ header {
 }
 
 /* section 2 subsections */
+.members-heading {
+    font-size: 42px;
+    margin: 64px 0px 24px 0px;
+}
+
 .members {
+    padding: 0px 240px 96px 240px;
     display: flex;
     justify-content: space-between;
 }
@@ -45,50 +82,102 @@ header {
     justify-content: space-between;
 }
 
+.card-container h2 {
+    font-size: 36px;
+}
+
 .card-container img {
+    border: 5px;
+    border-color: #a0c4cc;
+    border-style: solid;
     width: 300px;
+    height: auto;
+}
+
+.card-container a {
+    font-size: 36px;
+    margin-top: 24px;
 }
 
 /* section 3 */
 .content-3 {
+    background-color: #a0c4cc;
     display: flex;
     justify-content: center;
 }
 
 .quote-container {
+    padding: 48px 240px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.quote-container p {
-    font-size: 50px;
+.quote {
+    font-size: 48px;
+    font-weight: 550;
+    text-align: left;
+}
+
+.quote-author {
+    font-size: 36px;
+    font-style: italic;
+    margin-top: -24px;
     text-align: right;
 }
 
 /* section 4 */
 .content-4 {
+    padding: 96px 120px;
     display: flex;
     justify-content: center;
 }
 
 /* section 4 subsections */
 .sign-up-container {
+    background-color: #a0c4cc;
+    border-radius: 12px;
+    padding: 48px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 96px;
 }
 
 .sign-up-container h2 {
+    font-size: 36px;
     text-align: left;
+}
+
+.sign-up-container p {
+    font-size: 24px;
+    margin-top: -12px;
+    text-align: left;
+}
+
+.sign-up-container button {
+    font-size: 24px;
+    border-radius: 12px;
+    width: 180px;
+    height: 72px;
 }
 
 /* footer section */
 footer {
+    background-color: #010100;
+    padding: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 24px;
+}
+
+footer h2 {
+    color: #a0c4cc;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .icons {
-    height: 50px;
+    height: 36px;
 }
