@@ -94,7 +94,8 @@ header h1 {
     height: auto;
 }
 
-.card-container a {
+.card-container a,
+.card-container a:visited {
     color: #010100;
     font-size: 36px;
     margin-top: 24px;
